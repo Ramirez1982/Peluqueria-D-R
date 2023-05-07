@@ -10,6 +10,7 @@ navToggle.addEventListener("click", () => {
     navToggle.setAttribute("aria-label", "Abrir menú");
   }
 });
+
 // BOTON SCROLL TOP
 const btn_scrolltop = document.getElementById("btn_scrolltop");
 btn_scrolltop.addEventListener("click", () => {
