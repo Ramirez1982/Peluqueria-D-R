@@ -178,7 +178,7 @@ p {
     background: none;
     border: none;
     font-size: 3rem;
-    padding: 0 2rem;
+    padding: 0 1rem;
     line-height: 3rem;
     cursor: pointer;
     display: none;
@@ -201,7 +201,7 @@ p {
     .logo {
         display: block;
         font-family: var(--fuente);
-        font-size: 2.9rem;
+        font-size: 2.6rem;
         line-height: 3rem;
         text-transform: uppercase;
         text-shadow: 2px 2px 5px var(--negro);
@@ -252,7 +252,7 @@ p {
 
 @media (max-width: 320px) {
     .logo {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 }
 
@@ -264,60 +264,75 @@ p {
     flex-direction: column;
     align-items: center;
 }
+
 .principal-imagen {
     width: 100%;
     height: 25rem;
     background-image: url(/img/foto-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-}
-.principal-texto {
-    width: 90%;
-    margin-top: -5rem;
-    background-color: var(--blanco);
+    background-position: center;    
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
     -moz-border-radius: .5rem;
     -ms-border-radius: .5rem;
     -o-border-radius: .5rem;
 }
+
+.principal-texto {
+    width: 90%;
+    margin-top: -5rem;
+    background-color: var(--blanco);    
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
 @media (min-width: 768px) {
     .principal-imagen {
         height: 40rem;
     }
+
     .principal-texto {
         margin-top: -10rem;
     }
 }
+
 .principal-texto h1 {
     font-size: 2.8rem;
     color: var(--primario);
     text-align: center;
 }
+
 @media (min-width: 360px) {
     .principal-texto h1 {
         font-size: 3.2rem;
     }
 }
+
 @media (min-width: 768px) {
     .principal-texto h1 {
-        font-size: 6rem; 
-        margin: 0; 
-        padding-top: 2rem;      
+        font-size: 6rem;
+        margin: 0;
+        padding-top: 2rem;
     }
 }
+
 .principal-texto span {
     display: block;
     color: var(--gris);
     font-size: 1.6rem;
     margin-top: 1rem;
 }
+
 @media (min-width: 360px) {
     .principal-texto span {
         font-size: 2rem;
     }
 }
+
 @media (min-width: 768px) {
     .principal-texto span {
         margin: 0;
@@ -325,11 +340,13 @@ p {
         font-size: 2.5rem;
     }
 }
+
 .principal-texto p {
     font-family: var(--fuente);
     text-align: center;
     padding: 0 2rem 2rem;
 }
+
 @media (min-width: 768px) {
     .principal-texto p {
         font-size: 2rem;
