@@ -263,6 +263,13 @@ p {
     flex-direction: column;
     align-items: center;    
 }
+@media (min-width: 998px) {
+    .principal {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
 
 .principal-imagen {
     width: 100%;   
@@ -293,9 +300,25 @@ p {
     .principal-imagen {
         height: 40rem;
     }
-
     .principal-texto {
-        margin-top: -10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3rem 3rem 0;
+    }
+}
+@media (min-width: 998px) {
+    .principal-imagen {
+        height: 45rem;
+        width: 130%;
+    }
+
+    .principal-texto {  
+        margin: 0; 
+        height: 90%;
+        width: 117%;  
+        margin-left: -10rem;
+        padding: 3rem;
     }
 }
 
@@ -313,12 +336,16 @@ p {
 
 @media (min-width: 768px) {
     .principal-texto h1 {
-        font-size: 6rem;
+        font-size: 4rem;
         margin: 0;
-        padding-top: 2rem;
+        
     }
 }
-
+@media (min-width: 998px) {
+    .principal-texto h1 {
+        font-size: 5rem;
+    }
+}
 .principal-texto span {
     display: block;
     color: var(--gris);
@@ -334,13 +361,18 @@ p {
 
 @media (min-width: 768px) {
     .principal-texto span {
-        margin: 0;
-        padding-top: 1rem;
-        font-size: 2.5rem;
+        margin: 0;        
+        font-size: 2.3rem;
+    }
+}
+@media (min-width: 998px) {
+    .principal-texto span {
+        font-size: 2.2rem;
     }
 }
 
 .principal-texto p {
+    font-size: 1.7rem;
     font-family: var(--fuente);
     text-align: center;
     padding: 0 2rem 2rem;
@@ -349,7 +381,13 @@ p {
 @media (min-width: 768px) {
     .principal-texto p {
         font-size: 2rem;
-        padding: 4rem 5rem;
+        padding: 3rem 0;
+    }
+}
+@media (min-width: 998px) {
+    .principal-texto p {
+        font-size: 1.8rem;
+        padding: 2rem 0;
     }
 }
 
