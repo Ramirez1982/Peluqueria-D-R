@@ -401,6 +401,109 @@ p {
     }
 }
 
+/** SERVICIOS **/
+.servicios {
+    margin-top: 5rem;
+}
+
+.servicios .box-servicio h2 {
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.box-servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.box-1 {
+    width: 100%;
+    height: 25rem;
+    background-image: url(/img/foto-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+.box-3 {
+    width: 100%;
+    height: 25rem;
+    background-image: url(/img/foto-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+.box-5 {
+    width: 100%;
+    height: 25rem;
+    background-image: url(/img/foto-5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+.box-7 {
+    width: 100%;
+    height: 25rem;
+    background-image: url(/img/foto-7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.box-texto {
+    background-color: var(--blanco);
+    width: 90%;
+    margin-top: -5rem;
+    margin-bottom: 3rem;    
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.box-texto h2 {
+    color: var(--primario);
+    margin: 2rem 0;
+}
+
+.box-texto p {
+    font-family: var(--fuente);
+    font-size: 1.7rem;
+    padding: 0 2rem 2rem;
+    text-align: center;
+}
+
+.box-servicio img {
+    width: 100%;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
 
 
 
