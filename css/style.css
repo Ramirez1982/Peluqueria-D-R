@@ -291,7 +291,7 @@ p {
 
 .principal-texto {
     width: 90%;
-    margin-top: -5rem;
+    margin-top: -10rem;
     background-color: var(--blanco);
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
