@@ -786,9 +786,9 @@ p {
 /** BOTON SCROLL UP **/
 .btn-scrolltop {
     position: fixed;
-    bottom: 2rem;
-    right: 3rem;
-    padding: 1rem 1.8rem;
+    bottom: 3rem;
+    right: 2rem;
+    padding: 1rem 1.5rem;
     background: var(--negro);
     color: var(--gris);
     border: none;
