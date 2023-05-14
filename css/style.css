@@ -1,10 +1,9 @@
 :root {
-    --blanco: #FFFFFF;
+    --blanco: #FFFFFF; 
     --negro: #222222;
-    --gris: #353535;
-    --grisClaro: #E1E1E1;
+    --gris: #3B3D3F;   
+    --grisClaro: #D4CDC3;
     --primario: #D4B48B;
-
 
     --fuentePrincipal: 'Vidaloka', serif;
     --fuenteSecundaria: 'PT Sans', sans-serif;
