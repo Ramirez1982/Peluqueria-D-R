@@ -10,11 +10,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700;900&family=PT+Sans:wght@400;700&family=Vidaloka&display=swap"
         rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/597e27b433.js" crossorigin="anonymous"></script>
-    <script defer src="/js/index.js"></script>
     <title>Peluqueria D&R - Sobre nosotros.</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -33,7 +32,7 @@
                     <a href="conocenos.html" class="nav-menu-link nav-link nav-menu-link_active">Conócenos</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="#" class="nav-menu-link nav-link">Servicios</a>
+                    <a href="servicios.html" class="nav-menu-link nav-link">Servicios</a>
                 </li>
                 <li class="nav-menu-item">
                     <a href="#" class="nav-menu-link nav-link">Contacto</a>
@@ -44,34 +43,72 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <div class="contenedor historia">
+            <div data-aos="fade-up"
+            data-aos-duration="1000" class="texto-historia">
+                <h2>Historia</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+                    numquam omnis, voluptas blanditiis, explicabo est maxime qui
+                    asperiores porro eius vitae unde, possimus impedit officia?
+                    Laboriosam assumenda officiis hic a. Earum alias quos dolores
+                    doloremque pariatur aliquam, ea incidunt quo reprehenderit beatae
+                    error unde a suscipit ratione harum dolorem expedita consequatur
+                    autem sed sequi illo explicabo est rerum minima. Quasi. Id nobis
+                    distinctio delectus vitae. Voluptas blanditiis, explicabo est maxime qui
+                    asperiores porro eius vitae unde alias quos dolores
+                    doloremque.
+                </p>
+            </div>
+            <div class="imagen-historia"></div>
+        </div>
+    </main>
+    <!-- Linea divisoria -->
+    <div data-aos="fade-up"
+    data-aos-duration="1000" class="contenedor separadores">
+        <div class="separador-linea-left"></div>
+        <div class="separador-icono">
+            <i class="fa-sharp fa-solid fa-circle-chevron-down"></i>
+        </div>
+        <div class="separador-linea-right"></div>
+    </div>
+    <!-- Fin: Linea divisoria -->
     <div class="contenedor presentacion">
         <div class="nosotros">
-            <div class="imagen-david">
+            <div data-aos="fade-up"
+            data-aos-duration="1000" class="imagen-david">
                 <!-- <img src="/img/david.jpg" alt="Foto de David Peluquero"> -->
             </div>
-            <div class="presentacion-david">
+
+            <div data-aos="fade-up"
+            data-aos-duration="1000" class="presentacion-david">
                 <h2>David</h2>
                 <p>
-                    ¡Bienvenidos a nuestra web! Soy David, un apasionado peluquero con años de experiencia en el mundo de la belleza y el cuidado del cabello. Mi objetivo es ayudarte a descubrir tu estilo único y resaltar tu belleza natural a través de cortes de pelo y peinados personalizados.
+                    ¡Hola soy David¡ un apasionado peluquero con años de experiencia en
+                    el mundo de la belleza y el cuidado del cabello. Mi objetivo es
+                    ayudarte a descubrir tu estilo único y resaltar tu belleza natural a
+                    través de cortes de pelo y peinados personalizados.
                 </p>
-                <span>                    
+                <span>
                     <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
                     <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
                     <a href="#"><i class="fa-brands fa-square-pinterest"></i></a>
                 </span>
             </div>
-            <div class="imagen-rocio">
+            <div data-aos="fade-up"
+            data-aos-duration="1000" class="imagen-rocio">
                 <!-- <img src="/img/rocio.jpg" alt="Foto de Rocio Peluquera"> -->
             </div>
-            <div class="presentacion-rocio">
+            <div data-aos="fade-up"
+            data-aos-duration="1000" class="presentacion-rocio">
                 <h2>Rocio</h2>
                 <p>
-                    ¡Y yo soy Rocio! una peluquera apasionada y dedicada con muchos años de
-                    experiencia en el mundo de la belleza y el cuidado del cabello. Mi
-                    objetivo es brindarte un servicio excepcional y resaltar tu belleza
-                    única. Con un enfoque en las últimas tendencias y técnicas de
-                    peluquería.
+                    ¡Y yo soy Rocio! una peluquera dedicada con muchos años de
+                    experiencia en el mundo de la belleza y el estilismo. Mi objetivo es
+                    brindarte un servicio excepcional y resaltar tu belleza única. Con
+                    un enfoque en las últimas tendencias y técnicas de peluquería.
                 </p>
                 <span>
                     <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
@@ -82,7 +119,6 @@
             </div>
         </div>
     </div>
-
     <footer class="footer">
         <div class="contenedor datos-interes">
             <div class="logo-footer">
@@ -106,7 +142,7 @@
             </div>
             <div class="redes-sociales">
                 <h3>Redes Sociales</h3>
-                <ul class="redes">
+                <ul data-aos="fade-up" class="redes">
                     <li>
                         <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
                     </li>
@@ -133,6 +169,11 @@
     <button class="btn-scrolltop" id="btn_scrolltop">
         <i class="fas fa-chevron-up"></i>
     </button>
+    <script src="https://kit.fontawesome.com/597e27b433.js" crossorigin="anonymous"></script>
+    <script defer src="/js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
-
 </html>
